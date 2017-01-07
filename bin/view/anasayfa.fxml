@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.*?>
 <?import style.*?>
 
-<AnchorPane id="AnchorPane" fx:id="anaPanel" onMouseDragged="#moveDragged" onMousePressed="#movePressed" prefHeight="650.0" prefWidth="910.0" style="-fx-background-color: white;" styleClass="btn" stylesheets="@../css/Metro-UI.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AnasayfaController">
+<AnchorPane id="AnchorPane" fx:id="anaPanel" onMouseDragged="#moveDragged" onMousePressed="#movePressed" prefHeight="650.0" prefWidth="910.0" style="-fx-background-color: white;" styleClass="btn" stylesheets="@../css/Metro-UI.css" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomePageController">
     <children>
         <Text fill="#2b579a" layoutX="25.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anasayfa">
             <font>

@@ -26,7 +26,7 @@ import javafx.stage.Stage;
  *
  * @author oktay
  */
-public class AnasayfaController implements Initializable {
+public class HomePageController implements Initializable {
 
     @FXML
     private AnchorPane anaPanel;
