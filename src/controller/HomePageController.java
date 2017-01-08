@@ -7,6 +7,8 @@ package controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import implement.SetosaDAOImpl;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -20,6 +22,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import model.FlowerAv;
 
 /**
  * FXML Controller class
@@ -66,7 +69,7 @@ public class HomePageController implements Initializable {
     private final double e=2.718281828459;
     private final double pi=3.1416;
 
-    
+	SetosaDAOImpl s=new SetosaDAOImpl();
     /**
      * Initializes the controller class.
      * @param url
@@ -74,6 +77,10 @@ public class HomePageController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
+    	FlowerAv fav=new FlowerAv();
+    	fav=s.getSetosaAv(1);
+    	cy_boy=fav.getCy_boy_ort();
+    	System.out.println(cy_boy);
     
     }    
 

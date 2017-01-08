@@ -28,6 +28,6 @@
         <property name="hbm2ddl.auto">update</property>
 
         <!-- Names the annotated entity class -->
-		<mapping class="hibernate.model.User"/>
+		<mapping class="model.FlowerAv"/>
     </session-factory>
 </hibernate-configuration>

@@ -1,8 +1,11 @@
 package interfaces;
 
+import model.FlowerAv;
+import model.FlowerStd;
 public interface SetosaDAO {
 	
-	public void  getSetosaAv();
+	public FlowerAv  getSetosaAv(int id);
 
-	public void getSetosaStd();
+	public FlowerStd getSetosaStd(int id);
+	
 }

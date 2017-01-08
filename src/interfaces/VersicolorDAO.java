@@ -1,8 +1,11 @@
 package interfaces;
 
+import model.FlowerAv;
+import model.FlowerStd;
+
 public interface VersicolorDAO {
 	
-	public void  getVersicolorAv();
+	public FlowerAv  getVersicolorAv(int id);
 
-	public void getVersicolorStd();
+	public FlowerStd getVersicolorStd(int id);
 }

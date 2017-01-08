@@ -10,7 +10,6 @@ import javax.persistence.Table;
 @Table(name="flower_av")
 public class FlowerAv {
 	@Id
-	@GeneratedValue(strategy=GenerationType.TABLE)
     private int id;
 
     private double cy_boy_ort;

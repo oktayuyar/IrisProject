@@ -1,8 +1,11 @@
 package interfaces;
 
+import model.FlowerAv;
+import model.FlowerStd;
+
 public interface VirginicaDAO {
 	
-	public void  getVirginicaAv();
+	public FlowerAv  getVirginicaAv(int id);
 
-	public void getVirginicaStd();
+	public FlowerStd getVirginicaStd(int id);
 }
