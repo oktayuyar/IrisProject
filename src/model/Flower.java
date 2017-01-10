@@ -17,7 +17,7 @@ public class Flower{
     private double cyaprak_eni;
     private double tyaprak_boyu;
     private double tyaprak_eni;
-    private double cicekturu;
+    private double cicek_turu;
     
 	public int getId() {
 		return id;
@@ -49,10 +49,11 @@ public class Flower{
 	public void setTyaprak_eni(double tyaprak_eni) {
 		this.tyaprak_eni = tyaprak_eni;
 	}
-	public double getCicekturu() {
-		return cicekturu;
+	public double getCicek_turu() {
+		return cicek_turu;
 	}
-	public void setCicekturu(double cicekturu) {
-		this.cicekturu = cicekturu;
+	public void setCicek_turu(double cicek_turu) {
+		this.cicek_turu = cicek_turu;
 	}
+
 }

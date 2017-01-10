@@ -60,7 +60,7 @@
         <DoubleTextField fx:id="edttaceni" layoutX="487.0" layoutY="507.0" styleClass="textFieldiconnnn" />
       
       
-        <Button fx:id="btn" layoutX="312.0" layoutY="566.0" mnemonicParsing="false" onAction="#btnHesapla" styleClass="btn" text="Hesapla" />
+        <Button fx:id="btn" layoutX="520.0" layoutY="550.0" mnemonicParsing="false" prefWidth="100.0" onAction="#btnHesapla" styleClass="btn" text="Hesapla" />
         <CheckBox fx:id="cbox_setosa" layoutX="208.0" layoutY="348.0" mnemonicParsing="false" />
         <CheckBox fx:id="cbox_versicolor" layoutX="468.0" layoutY="348.0" mnemonicParsing="false" />
         <CheckBox fx:id="cbox_virginica" layoutX="729.0" layoutY="348.0" mnemonicParsing="false" />
@@ -74,6 +74,6 @@
                 </Button>
             </children>
         </HBox>
-      <Button fx:id="btn_temizle" layoutX="447.0" layoutY="566.0" mnemonicParsing="false" onAction="#btnTemizle" styleClass="btn" text="Temizle" />
+      <Button fx:id="btn_temizle" layoutX="520.0" layoutY="590.0" prefWidth="100.0" mnemonicParsing="false" onAction="#btnTemizle" styleClass="btn" text="Temizle" />
     </children>
 </AnchorPane>
