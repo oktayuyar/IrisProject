@@ -85,7 +85,6 @@ public class HomePageController implements Initializable {
     	//setosanın ortalama ve standart sapma değerlerini çekiyoruz 
     	s.getSetosaAv(1);
     	s.getSetosaStd(1);
-    	s.deneme();
     	//Setosanın standart sapmalarını bu şekilde  hesaplıyoruz
     	// s.getSetosaValues("Iris-Setosa","cyaprak_boyu"); 
     	// s.StandartSapmaHesapla(s.cyboyOrt,s.values);

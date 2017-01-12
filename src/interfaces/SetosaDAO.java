@@ -14,5 +14,5 @@ public interface SetosaDAO {
 	
 	public List<Double> getSetosaValues(String cicekturu,String yturu);
 
-	public void deneme();
+
 }
