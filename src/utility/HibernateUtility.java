@@ -5,13 +5,19 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 public class HibernateUtility {
-	public static Session getHibernateSession() {
-
-	    final SessionFactory sf = new Configuration()
+	
+	private final static SessionFactory sf = new Configuration()
 	        .configure("hibernate.cfg.xml").buildSessionFactory();
+	
+    private volatile static Session session = sf.openSession();
+    
+	private HibernateUtility() {
+	}
 
-	    final Session session = sf.openSession();
-	    return session;
-	    }
-
+	public static Session getHibernateSession() {
+	      if(session == null) {
+	    	  session = (Session) new HibernateUtility();
+	       }
+	       return session;
+	}
 }

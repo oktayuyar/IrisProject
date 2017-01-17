@@ -12,7 +12,6 @@ public class Flower{
 	@Id
 	@GeneratedValue(strategy=GenerationType.TABLE)
     private int id;
-    
     private double cyaprak_boyu;
     private double cyaprak_eni;
     private double tyaprak_boyu;

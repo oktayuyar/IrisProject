@@ -11,7 +11,6 @@ import javax.persistence.Table;
 public class FlowerStd {
 	@Id
     private int id;
-	
     private double cy_boy_std;
     private double cy_en_std;
     private double ty_boy_std;
